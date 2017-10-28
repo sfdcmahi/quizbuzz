@@ -1,0 +1,21 @@
+.navbar-brand img{
+    width: 150px;
+}
+.navbar-brand{
+      padding: 0 !important;
+}
+ul{
+    margin:0;
+    padding:0;
+    list-style:none;
+}
+.header-menu{
+  background: #ffc038;
+  padding: 10px 0;
+}
+.home{
+  background: #aee2ae;
+}
+.home .container{
+  padding-top: 100px;
+}

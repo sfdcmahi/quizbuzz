@@ -23,13 +23,13 @@ app.config(function($routeProvider) {
   .when("/contactus", {
     templateUrl : "views/contactus.html"
   })
-  .when("/createquizz", {
+  .when("/createquiz", {
     templateUrl : "views/createquizz.html"
   })
-  .when("/quizz:id", {
-    templateUrl : "views/quizzshow.html"
+  .when("/quiz", {
+    templateUrl : "views/quizshow.html"
   })
-  .when("/quizz", {
+  .when("/quiz:id", {
     templateUrl : "views/quizz.html"
   });
 });
